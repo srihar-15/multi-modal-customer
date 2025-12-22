@@ -16,6 +16,8 @@ app = FastAPI(
 origins = [
     "http://localhost:5173",  # Standard Vite port
     "http://localhost:3000",
+        "https://multi-modal-customer-kq7l.vercel.app",
+        "https://*.vercel.app",
 ]
 
 app.add_middleware(
